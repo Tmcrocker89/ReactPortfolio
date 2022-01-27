@@ -18,3 +18,9 @@
 .nav-link.active{
     background-color: lightslategray;
 }
+
+#asideImg{
+    background-image: url("../../assets/images/work-thumbs/me.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
