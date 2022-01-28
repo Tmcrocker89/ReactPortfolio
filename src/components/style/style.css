@@ -11,6 +11,11 @@
     font-size: x-large;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .noTextDec{
     color: black;
 }
@@ -24,3 +29,51 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.git_link {
+    width: 30px;
+    margin: 0px 10px 0px 5px;
+  }
+
+  a img.hover {
+    display: none;
+  }
+  a img.default {
+    display: inherit;
+  }
+  a:hover img.hover {
+    display: inherit;
+  }
+  a:hover img.default {
+    display: none;
+  }
+
+  .label {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark);
+    padding: 10px;
+    width: max-content;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .hoverLink{
+    color: lightblue;
+  }
+
+  .hoverLink:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:1000px) {
+    #projContainer{
+      flex-direction: column;
+    }
+
+    h3{
+      font-size: 10px !important;
+    }
+  }
+
