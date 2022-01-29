@@ -47,13 +47,13 @@ function Form() {
   };
 
   return (
-    <div class="container d-flex flex-column align-items-center">
-      <p>Contact Me!</p>
+    <div class="container d-flex flex-column align-items-center bg-secondary ">
+      <h1 className="jumbotron ">Contact Me!</h1>
       <form className="form form-group row d-flex flex-column justify-content-center col-lg-8">
         <div class="col-sm-12">  
             <input
               id="staticEmail"
-              className = "form-control-plaintext"
+              className = "form-control-plaintext bg-primary"
               value={email}
               name="email"
               onChange={handleInputChange}
@@ -64,7 +64,7 @@ function Form() {
         <div class="col-sm-12"> 
             <input
               id="inputUsername"
-              className = "form-control-plaintext"
+              className = "form-control-plaintext bg-primary"
               value={userName}
               name="userName"
               onChange={handleInputChange}
@@ -75,14 +75,14 @@ function Form() {
         <div class="col-sm-12"> 
             <input
               id="message"
-              className = "form-control-plaintext"
+              className = "form-control-plaintext bg-primary"
               value={message}
               name="Message"
               onChange={handleInputChange}
               placeholder="Message"
             />
         </div>
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button className="btn btn-primary btn-lg btn-block" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
