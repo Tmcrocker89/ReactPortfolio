@@ -81,3 +81,9 @@ a, a:hover, a:focus, a:active {
     height: 30px;
   }
 
+  .icon {
+    width: auto;
+    height: 50px;
+    margin: 10px;
+  }
+
