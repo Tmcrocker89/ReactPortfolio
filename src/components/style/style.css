@@ -77,3 +77,7 @@ a, a:hover, a:focus, a:active {
     }
   }
 
+  .resumeBtn {
+    height: 30px;
+  }
+

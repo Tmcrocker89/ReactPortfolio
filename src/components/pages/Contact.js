@@ -27,19 +27,30 @@ function Form() {
     }
   };
 
+  document.addEventListener("mousedown", (event) =>{
+    console.log(event)
+    if(!event.srcElement.id.includes('static'))
+    {
+      setErrorMessage('Please Fill Out All Fields');
+    }
+
+    if(event.srcElement.id.includes('static'))
+    {
+      setErrorMessage('');
+    }
+  })
+
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage('Email is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    alert(`Hello ${userName}`);
-
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
     setMessage('');
@@ -47,13 +58,13 @@ function Form() {
   };
 
   return (
-    <div class="container d-flex flex-column align-items-center bg-secondary ">
-      <h1 className="jumbotron ">Contact Me!</h1>
-      <form className="form form-group row d-flex flex-column justify-content-center col-lg-8">
-        <div class="col-sm-12">  
+    <div className="container d-flex flex-column align-items-center bg-secondary rounded">
+      <h1 className="jumbotron text-light">Contact Me!</h1>
+      <form className="form form-group row d-flex flex-column justify-content-center col-lg-8 rounded">
+        <div className="col-sm-12">  
             <input
               id="staticEmail"
-              className = "form-control-plaintext bg-primary"
+              className = "form-control-plaintext bg-primary rounded text-light"
               value={email}
               name="email"
               onChange={handleInputChange}
@@ -61,10 +72,10 @@ function Form() {
               placeholder="email"
             />
         </div>
-        <div class="col-sm-12"> 
+        <div className="col-sm-12"> 
             <input
-              id="inputUsername"
-              className = "form-control-plaintext bg-primary"
+              id="staticUsername"
+              className = "form-control-plaintext bg-primary rounded text-light"
               value={userName}
               name="userName"
               onChange={handleInputChange}
@@ -72,21 +83,22 @@ function Form() {
               placeholder="Name"
             />
         </div>
-        <div class="col-sm-12"> 
+        <div className="col-sm-12"> 
             <input
-              id="message"
-              className = "form-control-plaintext bg-primary"
+              id="staticMessage"
+              className = "form-control-plaintext bg-primary largeTextField rounded text-light"
               value={message}
               name="Message"
               onChange={handleInputChange}
               placeholder="Message"
+              rows="3"
             />
         </div>
         <button className="btn btn-primary btn-lg btn-block" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text text-danger h1">{errorMessage}</p>
         </div>
       )}
     </div>
