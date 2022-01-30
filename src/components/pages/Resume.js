@@ -6,7 +6,7 @@ export default function Blog() {
     <div>
       <p class="container d-flex flex-column justify-content-center align-items-center">
       <a
-        href="https://drive.google.com/file/d/1kmmjf-HuqfVJr5-kVEHmw1JV9mFzlbpd/view?usp=sharing"
+        href="https://docs.google.com/document/d/1F3Mq59-HYpsf2VeOWNIzXYrO_2805lN-QGfh9nDVr4E"
         target="_blank"
         rel="noreferrer"
       >
