@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Tmcrocker89/ReactPortfolio/static/css/main.5e1c8fb7.css",
-    "main.js": "/Tmcrocker89/ReactPortfolio/static/js/main.b614f658.js",
-    "static/media/blue-binary.jpg": "/Tmcrocker89/ReactPortfolio/static/media/blue-binary.75a350b2f4f984612459.jpg",
-    "static/media/me.jpg": "/Tmcrocker89/ReactPortfolio/static/media/me.8e80a1923bb646c8ee3a.jpg",
-    "static/media/justFurPets.png": "/Tmcrocker89/ReactPortfolio/static/media/justFurPets.14e07f2e06fcdf802bbb.png",
-    "static/media/resume_button3.png": "/Tmcrocker89/ReactPortfolio/static/media/resume_button3.f1105e56ce40a6cfae99.png",
-    "static/media/calendar.png": "/Tmcrocker89/ReactPortfolio/static/media/calendar.50257659605cf5ff7417.png",
-    "static/media/workdayScheduler.png": "/Tmcrocker89/ReactPortfolio/static/media/workdayScheduler.2eb61e1f3ae1c8d4c433.png",
-    "static/media/github_hover.png": "/Tmcrocker89/ReactPortfolio/static/media/github_hover.9b39ceb1921eca3c2279.png",
-    "static/media/behance_icon.png": "/Tmcrocker89/ReactPortfolio/static/media/behance_icon.b307bbb30b35a89c836d.png",
-    "static/media/linkedin_icon.png": "/Tmcrocker89/ReactPortfolio/static/media/linkedin_icon.6772d95f85d755baaf45.png",
-    "static/media/instagram_icon.png": "/Tmcrocker89/ReactPortfolio/static/media/instagram_icon.6eeb33bc24170f6825e5.png",
-    "static/media/github_icon.png": "/Tmcrocker89/ReactPortfolio/static/media/github_icon.619fdd58a804ce7908c6.png",
-    "static/media/email_icon.png": "/Tmcrocker89/ReactPortfolio/static/media/email_icon.1f45ce16dd51083ef637.png",
-    "static/media/prestige_icon.png": "/Tmcrocker89/ReactPortfolio/static/media/prestige_icon.a9d1ba1c281ed5c1791c.png",
-    "static/media/codeQuiz.png": "/Tmcrocker89/ReactPortfolio/static/media/codeQuiz.29569392cd5c1378cc08.png",
-    "static/media/passwordGen.png": "/Tmcrocker89/ReactPortfolio/static/media/passwordGen.49f044d9f9182290c93f.png",
-    "index.html": "/Tmcrocker89/ReactPortfolio/index.html",
-    "main.5e1c8fb7.css.map": "/Tmcrocker89/ReactPortfolio/static/css/main.5e1c8fb7.css.map",
-    "main.b614f658.js.map": "/Tmcrocker89/ReactPortfolio/static/js/main.b614f658.js.map"
+    "main.css": "/ReactPortfolio/static/css/main.f85f83c8.css",
+    "main.js": "/ReactPortfolio/static/js/main.bdb86fd9.js",
+    "static/media/blue-binary.jpg": "/ReactPortfolio/static/media/blue-binary.75a350b2f4f984612459.jpg",
+    "static/media/me.jpg": "/ReactPortfolio/static/media/me.8e80a1923bb646c8ee3a.jpg",
+    "static/media/justFurPets.png": "/ReactPortfolio/static/media/justFurPets.14e07f2e06fcdf802bbb.png",
+    "static/media/resume_button3.png": "/ReactPortfolio/static/media/resume_button3.f1105e56ce40a6cfae99.png",
+    "static/media/calendar.png": "/ReactPortfolio/static/media/calendar.50257659605cf5ff7417.png",
+    "static/media/workdayScheduler.png": "/ReactPortfolio/static/media/workdayScheduler.2eb61e1f3ae1c8d4c433.png",
+    "static/media/github_hover.png": "/ReactPortfolio/static/media/github_hover.9b39ceb1921eca3c2279.png",
+    "static/media/behance_icon.png": "/ReactPortfolio/static/media/behance_icon.b307bbb30b35a89c836d.png",
+    "static/media/linkedin_icon.png": "/ReactPortfolio/static/media/linkedin_icon.6772d95f85d755baaf45.png",
+    "static/media/instagram_icon.png": "/ReactPortfolio/static/media/instagram_icon.6eeb33bc24170f6825e5.png",
+    "static/media/github_icon.png": "/ReactPortfolio/static/media/github_icon.619fdd58a804ce7908c6.png",
+    "static/media/email_icon.png": "/ReactPortfolio/static/media/email_icon.1f45ce16dd51083ef637.png",
+    "static/media/prestige_icon.png": "/ReactPortfolio/static/media/prestige_icon.a9d1ba1c281ed5c1791c.png",
+    "static/media/codeQuiz.png": "/ReactPortfolio/static/media/codeQuiz.29569392cd5c1378cc08.png",
+    "static/media/passwordGen.png": "/ReactPortfolio/static/media/passwordGen.49f044d9f9182290c93f.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.f85f83c8.css.map": "/ReactPortfolio/static/css/main.f85f83c8.css.map",
+    "main.bdb86fd9.js.map": "/ReactPortfolio/static/js/main.bdb86fd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e1c8fb7.css",
-    "static/js/main.b614f658.js"
+    "static/css/main.f85f83c8.css",
+    "static/js/main.bdb86fd9.js"
   ]
 }
